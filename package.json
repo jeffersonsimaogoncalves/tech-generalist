@@ -1,7 +1,7 @@
 {
     "name": "tech-generalist-ui-components",
     "description": "UI Components created by Jay Grissom (TechGeneralist)",
-    "version": "0.0.27",
+    "version": "0.1.0",
     "author": "Jay Grissom <jfgrissom@gmail.com>",
     "license": "MIT",
     "files": [

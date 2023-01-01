@@ -102,19 +102,9 @@ interface SocialLinkProps extends PropsWithChildren {
 export const SocialLink = (props: SocialLinkProps) => {
   const { icon: Icon, className, href } = props
   return (
-    <a className={classname("group -m-1 p-1", className)} target='_blank' href={href}>
+    <a className={classname("group -m-1 p-1 zinc-400", className)} target='_blank' href={href}>
       <Icon
-        className={classname(`
-          dark:fill-zinc-400
-          dark:group-hover:fill-zinc-300
-          fill-zinc-500
-          group-hover:fill-zinc-600
-          h-6
-          transition
-          w-6
-        `,
-          className
-        )}
+        className={classname("h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300", className)}
       />
     </a>
   )

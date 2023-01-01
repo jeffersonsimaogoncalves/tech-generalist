@@ -13,9 +13,9 @@ export const WobblyPhotos = (props: WobblyPhotosProps) => {
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
         {photos.map((src, index) => (
           <div
-            key={`${index}-${src}`}
+            key={src}
             className={classname(
-              'relative aspect-[9/10] w-40 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:rounded-2xl',
+              'relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl',
               rotations[index % rotations.length]
             )}
           >
@@ -27,6 +27,6 @@ export const WobblyPhotos = (props: WobblyPhotosProps) => {
           </div>
         ))}
       </div>
-    </div >
+    </div>
   )
 }
