@@ -93,7 +93,7 @@ export const LinkedInIcon = (props: SocialIconProps) => {
   )
 }
 
-interface SocialLinkProps extends PropsWithChildren {
+export interface SocialLinkProps extends PropsWithChildren {
   icon: typeof TwitterIcon | typeof InstagramIcon | typeof GitHubIcon | typeof LinkedInIcon
   href: string,
   className?: string

@@ -13,6 +13,13 @@ scratch my own itch.
 
 ## Usage
 
+Import the components appropriate for your environment.
+
+`import {SocialLink, TwitterIcon} from 'tech-generalist-ui-components/next'`
+
+Use the component in your application somewhere.
+`<SocialLink href="https://twitter.com/jfgrissom" aria-label="Follow on Twitter" icon={TwitterIcon} />`
+
 In order to use this libarary you'll need to include this node_modules entry in
 your `tailwind.config.js` file. If you don't do this the CSS for the components
 don't get included in the CSS post processing stage of your build.

@@ -1,11 +1,11 @@
-// TODO: Later this will export different button strategies (POJS, React, Angular, etc...)
-export { Button } from './react/Components/Button'
-export { WobblyPhotos } from './react/Components/WobblyPhotos'
-export { Container, Outer, Inner } from './react/Components/Container'
+// TODO: Abstract then export different button strategies (POJS, React, Angular, etc...)
+export { Button } from './next/Components/Button'
+export { WobblyPhotos } from './next/Components/WobblyPhotos'
+export { Container, Outer, Inner } from './next/Components/Container'
 export {
     GitHubIcon,
     InstagramIcon,
     LinkedInIcon,
     SocialLink,
     TwitterIcon
-} from './react/Components/SocialIcons'
+} from './next/Components/SocialIcons'
