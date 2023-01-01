@@ -11,7 +11,19 @@ layouts and different widgets of all sorts. This library is just for me to reuse
 with my personal projects. If others find it helpful fantasctic but this is to
 scratch my own itch.
 
-## How to suppor this work.
+## Usage
+
+In order to use this libarary you'll need to include this node_modules entry in
+your `tailwind.config.js` file. If you don't do this the CSS for the components
+don't get included in the CSS post processing stage of your build.
+
+```
+content: [
+    './node_modules/tech-generalist-ui-components/**/*.js',
+  ],
+```
+
+## How to support this work.
 
 Please feel free to submit
 [bug report](https://github.com/jfgrissom/tech-generalist/issues) or
