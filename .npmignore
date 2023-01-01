@@ -1,9 +1,2 @@
 node_modules/*
 src/*
-
-.gitignore
-LICENSE
-package.json
-README.md
-tsconfig.json
-yarn.lock
