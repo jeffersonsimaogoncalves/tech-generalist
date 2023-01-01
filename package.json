@@ -1,0 +1,23 @@
+{
+    "name": "tech-generalist-ui-components",
+    "description": "UI Components created by Jay Grissom (TechGeneralist)",
+    "version": "0.0.3",
+    "dependencies": {
+        "react": "^18.2.0",
+        "typescript": "^4.9.4",
+        "user": "^0.0.0"
+    },
+    "scripts": {
+        "build": "tsc",
+        "clean": "rm -rf dist",
+        "dev": "tsc -w",
+        "pack": "cd dist && npm pack",
+        "prebuild": "yarn clean",
+        "prepack": "cp package.json dist",
+        "prepublish": "yarn build",
+        "publish": "cd dist && npm publish"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.26"
+    }
+}
