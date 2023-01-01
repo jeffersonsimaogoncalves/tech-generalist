@@ -1,9 +1,12 @@
 {
     "name": "tech-generalist-ui-components",
     "description": "UI Components created by Jay Grissom (TechGeneralist)",
-    "version": "0.0.10",
+    "version": "0.0.18",
     "author": "Jay Grissom <jfgrissom@gmail.com>",
     "license": "MIT",
+    "files": [
+        "dist/"
+    ],
     "homepage": "https://github.com/jfgrissom/tech-generalist",
     "repository": {
         "type": "git",
@@ -13,11 +16,11 @@
         "build": "tsc",
         "clean": "rm -rf dist",
         "dev": "tsc -w",
-        "pack": "npm pack dist/package.json",
+        "pack": "yarn pack",
         "postbuild": "cp package.json dist && cp README.md dist && cp LICENSE dist",
         "prebuild": "yarn clean",
         "prepublish": "yarn build",
-        "publish": "cd dist && npm publish"
+        "pub": "cd dist && yarn publish package.json"
     },
     "dependencies": {
         "react": "^18.2.0",
