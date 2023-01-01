@@ -3,7 +3,9 @@ export { Button } from './react/Components/Button'
 export { WobblyPhotos } from './react/Components/WobblyPhotos'
 export { Container, Outer, Inner } from './react/Components/Container'
 export {
+    GitHubIcon,
+    InstagramIcon,
+    LinkedInIcon,
     SocialLink,
-    TwitterIcon,
-    GitHubIcon
+    TwitterIcon
 } from './react/Components/SocialIcons'
